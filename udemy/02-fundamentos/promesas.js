@@ -39,6 +39,8 @@ let getSalario = (empleado) => {
     });
 }
 
+// promesas comunes
+/*
 getEmpleado(2).then((empleado) => {
     getSalario(empleado).then((empleado) => {
         console.log(`Empleado de DB`, empleado);
@@ -49,3 +51,15 @@ getEmpleado(2).then((empleado) => {
 }).catch((err) => {
     console.log(err);
 });
+*/
+
+
+// encadenando promesas
+getEmpleado(3).then((empleado) => {
+        return getSalario(empleado);
+    }).then(resp => {
+        console.log(`El salario de ${resp.nombre} es de ${resp.salario}`);
+    })
+    .catch(err => {
+        console.log(err);
+    });
