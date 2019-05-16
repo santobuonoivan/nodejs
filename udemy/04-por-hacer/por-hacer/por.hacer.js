@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let listadoPorHacer = [];
 
-const  guardarDB = () => {
+const guardarDB = () => {
 
 
     let data = JSON.stringify( listadoPorHacer );
@@ -12,7 +12,6 @@ const  guardarDB = () => {
             throw new Error('no se pudo grabar', err);
     });
 }
-
 const cargarDB = () => {
     try {
         listadoPorHacer = require('../db/data.json');
@@ -20,7 +19,7 @@ const cargarDB = () => {
         listadoPorHacer = [];
     }
 }
-const  crear = ( description) => {
+const crear = ( description) => {
 
     cargarDB();
 
@@ -34,7 +33,34 @@ const  crear = ( description) => {
 
     return porHacer;
 }
+const getListado = () => {
+    cargarDB();
+    return listadoPorHacer;
+}
+const actualizar = (description, completado = true) =>{
+    cargarDB();
+    let index = listadoPorHacer.findIndex(tarea => tarea.description === description);
 
+    if ( index >= 0 ){
+        listadoPorHacer[index].completado = completado;
+        guardarDB();
+        return true;
+    }else{
+        return false;
+    }
+}
+const borrar = (description) =>{
+    cargarDB();
+    let index = listadoPorHacer.findIndex(tarea => tarea.description === description);
+    console.log(index);
+    if ( index >= 0 ){
+        listadoPorHacer.splice(index,1);
+        guardarDB();
+        return true;
+    }else{
+        return false;
+    }
+}
 
 
 
@@ -46,5 +72,8 @@ const  crear = ( description) => {
 
 
 module.exports = {
-    crear
+    crear,
+    getListado,
+    actualizar,
+    borrar
 }
