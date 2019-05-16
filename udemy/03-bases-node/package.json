@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/santobuonoivan/nodejs#readme",
   "dependencies": {
+    "colors": "^1.3.3",
     "yargs": "^13.0.0-candidate.0"
   },
   "devDependencies": {}
