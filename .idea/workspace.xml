@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49d9f45a-2edb-4c28-a7cb-245416e0ded3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/04-por-hacer/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/04-por-hacer/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/04-por-hacer/config/yargs.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/04-por-hacer/config/yargs.js" afterDir="false" />
-    </list>
+    <list default="true" id="49d9f45a-2edb-4c28-a7cb-245416e0ded3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -96,24 +92,6 @@
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="05-clima-mundo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="05-clima-mundo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -123,6 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -156,12 +135,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557952238365</updated>
       <workItem from="1557952240801" duration="22423000" />
-      <workItem from="1558111256422" duration="1845000" />
+      <workItem from="1558111256422" duration="2136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24268000" />
+    <option name="totallyTimeSpent" value="24559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="699" extended-state="6" />
