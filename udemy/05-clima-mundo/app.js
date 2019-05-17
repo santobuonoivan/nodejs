@@ -1,5 +1,10 @@
 
+const { argv } = require( './config/yargs');
+const lugar  = require('./lugar/lugar');
 
-let argv = require( 'config/yargs');
 
-console.log(argv);
+
+lugar.getLugarLatLng(argv.direccion)
+    .then(console.log)
+
+

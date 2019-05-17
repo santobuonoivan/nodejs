@@ -9,3 +9,11 @@ const  argv = require('yargs').options({
     }
 }).argv;
 
+
+
+
+
+
+module.exports = {
+    argv
+}
