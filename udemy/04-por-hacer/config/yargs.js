@@ -3,7 +3,7 @@ const description = {
     alias: 'd',
     desc: 'descripcion de la tarea por hacer',
 }
-const  completado = {
+const completado = {
     alias: 'c',
     default: true,
     desc: 'Marco como completado o pendiente la tarea',
@@ -12,11 +12,17 @@ const  completado = {
 
 
 
-    const argv = require('yargs')
+const argv = require('yargs')
     .command('crear', 'Crea tarea', { description, })
     .command('actualizar', 'Actualiza una tarea', { description, completado })
     .command('borrar', 'Borrar tarea', { description })
-    .command('listar', 'Lista tareas', { completado })
+    .command('listar', 'Lista tareas', {
+        completadol: {
+            alias: 'c',
+            default: null,
+            desc: 'Marco como completado o pendiente la tarea',
+        }
+    })
     .help()
     .argv;
 
