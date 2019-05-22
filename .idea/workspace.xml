@@ -4,9 +4,7 @@
     <list default="true" id="49d9f45a-2edb-4c28-a7cb-245416e0ded3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy/05-clima-mundo/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/05-clima-mundo/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/05-clima-mundo/config/yargs.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/05-clima-mundo/config/yargs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/05-clima-mundo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/05-clima-mundo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy/05-clima-mundo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/05-clima-mundo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy/05-clima-mundo/lugar/lugar.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy/05-clima-mundo/lugar/lugar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/config/yargs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="561">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -40,8 +29,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/lugar/lugar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/clima/clima.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -69,6 +67,7 @@
         <option value="$PROJECT_DIR$/udemy/04-por-hacer/por-hacer/por.hacer.js" />
         <option value="$PROJECT_DIR$/udemy/04-por-hacer/app.js" />
         <option value="$PROJECT_DIR$/udemy/05-clima-mundo/config/yargs.js" />
+        <option value="$PROJECT_DIR$/udemy/05-clima-mundo/clima/clima.js" />
         <option value="$PROJECT_DIR$/udemy/05-clima-mundo/app.js" />
         <option value="$PROJECT_DIR$/udemy/05-clima-mundo/lugar/lugar.js" />
       </list>
@@ -124,7 +123,7 @@
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="05-clima-mundo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="clima" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,12 +168,13 @@
       <option name="presentableId" value="Default" />
       <updated>1557952238365</updated>
       <workItem from="1557952240801" duration="22423000" />
-      <workItem from="1558111256422" duration="9100000" />
+      <workItem from="1558111256422" duration="9619000" />
+      <workItem from="1558550909840" duration="6310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31523000" />
+    <option name="totallyTimeSpent" value="38352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="699" extended-state="6" />
@@ -278,22 +278,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/config/yargs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="561">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/clima/clima.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/udemy/05-clima-mundo/lugar/lugar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
