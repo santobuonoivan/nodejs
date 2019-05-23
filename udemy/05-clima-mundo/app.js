@@ -1,5 +1,5 @@
 
-const { argv } = require( './config/yargs');
+//const { argv } = require( './config/yargs');
 const lugar  = require('./lugar/lugar');
 const clima = require('./clima/clima');
 
@@ -19,17 +19,29 @@ clima.getClima(40.750000,-74.000000)
 const getInfo = async ( dir ) => {
     try {
         const coordenadas = await lugar.getLugarLatLng(dir);
-        console.log(coordenadas);
+        //console.log(coordenadas);
         const temperatura = await clima.getClima(coordenadas.lat,coordenadas.lng );
-        return `El clima de ${coordenadas.direccion} es de ${temperatura}`;
+        return {
+            lugar: coordenadas.direccion,
+            lat: coordenadas.lat,
+            lng: coordenadas.lng,
+            temp: temperatura};
     }catch (e) {
-        return `No se pudo determinar el clima de ${dir}`;
+        return {
+            lugar: dir,
+            lat: null,
+            lng: null,
+            temp: null};
     }
 
 
 
 }
-
+/*
 getInfo(argv.direccion)
     .then(console.log)
     .catch(console.log);
+*/
+module.exports = {
+    getInfo
+}

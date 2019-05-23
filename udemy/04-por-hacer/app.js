@@ -1,4 +1,4 @@
-//const  { argv } = require('yargs');
+//const  { argv } = require('config');
 
 const argv = require('./config/yargs').argv;
 const porHacer = require('./por-hacer/por.hacer');
